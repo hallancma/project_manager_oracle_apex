@@ -363,7 +363,7 @@ BEGIN
    WHERE trigger_name = 'TRG_PM_GRUPO_USUARIO';
 
   IF l_count > 0 THEN
-    EXECUTE IMMEDIATE 'drop trigger PM_GRUPO_USUARIO';
+    EXECUTE IMMEDIATE 'drop trigger TRG_PM_GRUPO_USUARIO';
   END IF;
 
 END;
